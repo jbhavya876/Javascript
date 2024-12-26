@@ -16,7 +16,6 @@ let idString = String(id);
 // console.log(typeof idString);
 // console.log(idString);
 
-
 /*
 "33" -> 33
 "33abc" -> NaN
@@ -30,3 +29,9 @@ console.log(typeof isLoggedIn);
 let booleanIsLoggedIn = Boolean(isLoggedIn);
 console.log(typeof booleanIsLoggedIn);
 console.log(booleanIsLoggedIn);
+
+// 1=> true;
+//  0=> false
+// "" => false;
+// " " => true;
+// "abc" => true;
